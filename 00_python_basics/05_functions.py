@@ -2,11 +2,16 @@ import random
 def max_min(mlist):
     minimum = mlist[0]
     for num in mlist:
-        if num < minimum:
+        if num > minimum:
             minimum = num
-        print(f"Value is {minimum}")
-    pass
+        # print(f"Value is {minimum}")
+    return minimum
 
-mlist = random.sample(range(1,30), 5)
-print(mlist)
-max_min(mlist)
+
+def getValues():
+  mlist = random.sample(range(1,30), 5)
+  print(mlist)
+  max_min(mlist)
+  result = max_min(mlist)
+  print (result)
+getValues()
