@@ -1,3 +1,7 @@
+num = "John"
+num2 = "John"
+
+print(type(num))
 name = "John"
 name2 = "John"
 num = 147

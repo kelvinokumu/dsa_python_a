@@ -1,3 +1,6 @@
+num = 25
+if num > 15:
+    print(num)
 # control_flow
 
 def if_statement():
